@@ -6,10 +6,8 @@ from jax.tree_util import (
     tree_flatten,
     tree_leaves,
     tree_map,
-    tree_multimap,
     tree_unflatten,
 )
-
 
 def tree_sum(tree) -> torch.Tensor:
     """Sum of the leaves of a tree"""
